@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity path="">
+	
+<state id="idle">
+		
+<mesh_ref ref="mesh"/>
+	
+</state>
+	
+<mesh_description id="mesh">
+		
+<src file=""/>
+		
+<mesh file="Storage3x_mesh.m.hgm"/>
+		
+<material file="Storage3xBooze_M_mat.mtl"/>
+		
+
+<attach name = "Origin" spot_pos = "0,0,0" />
+<attach name = "Center" spot_pos = "-1000,0,0" />
+<attach name = "Top" spot_pos = "-1000,0,866" />
+
+<attach name = "Box1" spot_pos = "-2235,-232,35" spot_rot = "0.0,0.0,0.1,270" />
+
+<attach name = "Workdrone" spot_pos = "-2000,580,0" />	
+<attach name = "Workdrone" spot_pos = "-1000,580,0" />
+<attach name = "Workdrone" spot_pos = "0,580,0" />	
+<attach name = "Workdrone" spot_pos = "-2000,-580,0" />
+<attach name = "Workdrone" spot_pos = "-1000,-580,0" />	
+<attach name = "Workdrone" spot_pos = "0,-580,0" />
+
+<attach name = "Workrover" spot_pos = "-500,800,0" />
+<attach name = "Workrover" spot_pos = "-1500,800,0" />
+<attach name = "Workrover" spot_pos = "-500,-800,0" />
+<attach name = "Workrover" spot_pos = "-1500,-800,0" />
+
+<attach name = "Workshuttle" spot_pos = "500,0,0" />
+<attach name = "Workshuttle" spot_pos = "-1000,0,0" />
+<attach name = "Workshuttle" spot_pos = "-2500,0,0" />
+
+<surf type="hex_shape" name="001" points="-1938,-128,0;-62,72,0;-62,-128,0"/>
+		
+<surf type="hex_shape" name="001" points="-1938,72,0;-62,72,0;-1938,-128,0"/>
+
+		
+<surf type="selection" name="001" points="-2459,259,0;-2286,-409,0;-2459,-259,0"/>
+		
+<surf type="selection" name="001" points="186,409,0;186,-409,0;-2286,-409,0"/>
+		
+<surf type="selection" name="001" points="-2286,409,0;-2286,-409,0;-2459,259,0"/>
+		
+<surf type="selection" name="001" points="186,409,0;-2286,-409,0;-2286,409,0"/>
+		
+<surf type="selection" name="001" points="186,-409,0;186,409,0;359,-259,0"/>
+		
+<surf type="selection" name="001" points="359,-259,0;186,409,0;359,259,0"/>
+
+
+<surf type="collision" points="-2320, -300,0	;220,-300,0		;220,300, 0"/>
+<surf type="collision" points="220, 300, 0	;-2320, 300, 0		;-2320, -300, 0"/>
+<surf type="collision" points="-2320, 300, 550	;220, 300, 550		;-2320, -300, 550"/>
+<surf type="collision" points="-2320, -300, 550	;220, 300, 550		;220, -300, 550"/>
+<surf type="collision" points="220, -300, 550	;220, 300, 550		;220, 300, 0"/>
+<surf type="collision" points="220, -300, 550	;220, 300, 0		;220, -300, 0"/>
+<surf type="collision" points="-2320, -300, 550	;220, -300, 550		;220, -300, 0"/>
+<surf type="collision" points="-2320, -300, 550	;220, -300, 0		;-2320, -300, 0"/>
+<surf type="collision" points="-2320, 300, 550	;-2320, -300, 550	;-2320, -300, 0"/>
+<surf type="collision" points="-2320, 300, 550	;-2320, -300, 0		;-2320, 300, 0"/>
+<surf type="collision" points="-2320, 300, 550	;220, 300, 0		;220, 300, 550"/>
+<surf type="collision" points="220, 300, 0	;-2320, 300, 550	;-2320, 300, 0"/>
+<surf type="collision" points="-2320, 300, 100	;220, 300, 100		;-2320, -300, 100"/>
+<surf type="collision" points="-2320, -300, 100	;220, 300, 100		;220, -300, 100"/>
+		
+<bsphere value="-1050,0,20,1323"/>
+		
+<box min="-2350,-300,0" max="250,300,40"/>
+
+
+<surf_hash type="hex_shape" value="1844698510"/>
+		
+<surf_hash type="selection" value="1207750121"/>
+
+
+</mesh_description>
+</entity>
